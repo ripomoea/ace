@@ -1,3 +1,5 @@
+mod raindrop_api;
+
 #[cfg(test)]
 mod tests {
     #[test]
