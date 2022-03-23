@@ -1,3 +1,5 @@
+mod raindrop;
+
 #[cfg(test)]
 mod tests {
     #[test]
