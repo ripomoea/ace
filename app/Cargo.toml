@@ -1,12 +1,12 @@
 [package]
-name = "app"
+name = "ace-app"
 version = "0.1.0"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-kernel = { path = "../kernel" }
-repository = { path = "../data/repository" }
+ace-kernel = { path = "../kernel" }
+ace-repository = { path = "../data/repository" }
 
 dotenv = "0.15.0"

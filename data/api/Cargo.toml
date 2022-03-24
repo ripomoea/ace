@@ -1,12 +1,12 @@
 [package]
-name = "api"
+name = "ace-api"
 version = "0.1.0"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-kernel = { path = "../../kernel" }
+ace-kernel = { path = "../../kernel" }
 
 axum = "0.4.8"
 hyper = { version = "0.14.17", features = ["full"] }
