@@ -1,4 +1,4 @@
-mod raindrop_api;
+pub mod raindrop;
 
 #[cfg(test)]
 mod tests {
